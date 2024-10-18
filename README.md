@@ -10,22 +10,24 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
+### The Challenge
+
+Your challenge is to build out this recipe page and get it looking as close to the design as possible.
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/tloyan/frontendmentor-recipe-page)
-- Live Site URL: [Add live site URL here](https://recipe-page.tloyan.com)
+- Solution URL: [github.com/tloyan/frontendmentor-recipe-page](https://github.com/tloyan/frontendmentor-recipe-page)
+- Live Site URL: [recipe-page.tloyan.com](https://recipe-page.tloyan.com)
 
 ## My process
 
@@ -36,13 +38,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-### What I learned
-
 ### Continued development
 
-
-### Useful resources
-
+I’d like to focus more on using semantic tags to improve accessibility, continuously enhance my skills in responsive design, and create smooth animations.
 
 ## Author
 

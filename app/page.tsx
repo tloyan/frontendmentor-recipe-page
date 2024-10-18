@@ -61,7 +61,7 @@ export default function Home() {
   return (
     <main className="flex w-full justify-center bg-stone-100 sm:px-12 sm:py-32">
       <article className="rounded-3xl bg-white sm:max-w-[616px] sm:px-10 sm:pt-10 lg:max-w-[736px]">
-        <div>
+        <div className="overflow-hidden rounded-xl">
           <Image
             src="/image-omelette.jpeg"
             alt="recipe image"
