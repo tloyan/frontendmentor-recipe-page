@@ -59,30 +59,32 @@ const recipe = {
 
 export default function Home() {
   return (
-    <article>
-      <div>
-        <Image
-          src="/image-omelette.jpeg"
-          alt="recipe image"
-          width={1312}
-          height={600}
-        />
-      </div>
-      <div className="space-y-8 px-8 py-10">
-        <header className="space-y-6">
-          <h1 className="font-serif text-[36px] leading-none text-stone-900">
-            {recipe.title}
-          </h1>
-          <p className="">{recipe.description}</p>
-        </header>
-        <PreparationTimeSection {...recipe.time} />
-        <IngredientsSection ingredients={recipe.ingredients} />
-        <hr className="border-stone-150" />
-        <InstructionSection instructions={recipe.instructions} />
-        <hr className="border-stone-150" />
-        <NutritionSection {...recipe.nutrition} />
-      </div>
-    </article>
+    <main className="flex w-full justify-center bg-stone-100 sm:px-12 sm:py-32">
+      <article className="rounded-3xl bg-white sm:max-w-[616px] sm:px-10 sm:pt-10 lg:max-w-[736px]">
+        <div>
+          <Image
+            src="/image-omelette.jpeg"
+            alt="recipe image"
+            width={1312}
+            height={600}
+          />
+        </div>
+        <div className="space-y-8 px-8 py-10 sm:px-0">
+          <header className="space-y-6">
+            <h1 className="font-serif text-4xl leading-none text-stone-900 sm:text-[40px]">
+              {recipe.title}
+            </h1>
+            <p className="">{recipe.description}</p>
+          </header>
+          <PreparationTimeSection {...recipe.time} />
+          <IngredientsSection ingredients={recipe.ingredients} />
+          <hr className="border-stone-150" />
+          <InstructionSection instructions={recipe.instructions} />
+          <hr className="border-stone-150" />
+          <NutritionSection {...recipe.nutrition} />
+        </div>
+      </article>
+    </main>
   );
 }
 
@@ -100,7 +102,7 @@ function ListItem({
   return (
     <li className="flex items-center space-x-4">
       <p
-        className={`pl-2 text-base ${marker === "•" ? "pr-[10px]" : "pr-[3px]"} font-bold text-rose-800 ${markerPos === "top" && "self-start"}`}
+        className={`pl-2 text-base ${marker === "•" ? "pr-2.5" : "pr-1"} font-bold text-rose-800 ${markerPos === "top" && "self-start"}`}
       >
         <span className={`${marker === "•" && "align-middle"}`}>{marker}</span>
       </p>
